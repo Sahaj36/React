@@ -7,14 +7,28 @@
 </head>
 <body>
     <script>
-        obj = {
-            firstname : "Sahaj",
-            lastname : "Khalasi"
+
+        function newData() {
+            return ["Apple", "banana"]
         }
 
-        const {firstname} = obj
+        const [fruit1, fruit2] = newData()
+        console.log(fruit1,fruit2);
 
-        console.log(firstname);
+        // const array = [1,2,3,4,5]
+        // const [a,b,c,d] = array;
+        // console.log(a,b,c,d);
+
+        // console.log(array[0], array[1], array[2], array[3]);
+
+        // obj = {
+        //     firstname : "Sahaj",
+        //     lastname : "Khalasi"
+        // }
+
+        // const {firstname} = obj
+
+        // console.log(firstname);
     </script>
 </body>
 </html>
